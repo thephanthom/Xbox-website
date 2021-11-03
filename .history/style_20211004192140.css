@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  max-width: 1200px;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+header,
+#rightWrapper,
+.flexedCenter {
+  display: flex;
+  align-items: center;
+}
+
+#logo,
+#logo2 {
+  height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul > li {
+  margin: 0 6px;
+}
+
+ul > li > a,
+#YetimLink {
+  text-decoration: none;
+  color: #262626;
+  display: flex;
+  align-items: center;
+}
+
+span > svg {
+  color: #4d4d4d;
+}
+
+.carusel {
+  width: 100vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 380px 380px;
+  margin: 10px;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: green;
+}
+
+#grid-1 {
+  grid-row: 1/3;
+  height: 100%;
+  background-image: url("https://compass-ssl.xbox.com/assets/bf/a5/bfa51d2a-b841-4e99-b6cf-e9b40ede2387.jpg?n=Sable_Large-tout-0_Key-art_1083x1222.jpg");
+  background-size: cover;
+}
+
+.grid-2 {
+  display: flex;
+  overflow-y: hidden;
+}
+
+#inner-1 {
+  width: 100%;
+  background-color: #107c10;
+}
+
+#inner-2 {
+  width: 100%;
+  background-image: url("https://compass-ssl.xbox.com/assets/b9/1f/b91f3ee0-b394-4193-866d-76abf352a5bf.jpg?n=XGP-2021_Small-tout-1084_9-14-21_475x534.jpg");
+  background-size: cover;
+}
+
+#inner-2:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,9 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#logo,
+#2logo {
+  height: 50px;
+}
